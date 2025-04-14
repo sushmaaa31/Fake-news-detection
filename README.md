@@ -34,4 +34,5 @@ This Streamlit app helps classify whether a news article is **Fake** or **Real**
 ---
 
 📜 License
+
 This project is licensed under the MIT License.
