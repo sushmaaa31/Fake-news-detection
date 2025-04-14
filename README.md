@@ -1,42 +1,52 @@
-# 📰 Fake News Detection App
+# 📰 Fake News Detection
 
-A simple and interactive web app built using **Streamlit** to detect whether a news article is **Fake** or **Real** using Natural Language Processing and a **Naive Bayes** classifier.
+This Streamlit app helps classify whether a news article is **Fake** or **Real** using text analysis and machine learning.
 
 ---
 
 ## 🚀 Features
 
-- User-friendly web interface
-- Cleans and preprocesses the input text
-- Uses TF-IDF for feature extraction
-- Classifies text as **Fake** or **Real**
-- Shows model details optionally
+- 📂 Upload & process the dataset (`Fake.csv`)
+- 🧹 Clean text (remove URLs, punctuation, stopwords)
+- ✨ Extract features using TF-IDF
+- 🤖 Classify news using **Multinomial Naive Bayes**
+- 📊 Optional display of processed input and prediction steps
 
+---
 
+## 🖼 Sample Output
 
-## 🧠 Tech Stack
+- 📝 Text input for classification
+- 🧼 Cleaned version of the input shown
+- 🔍 Model output: **Fake** or **Real**
+- ✅ Checkbox to view detailed model steps
 
-- **Python**
-- **Streamlit**
-- **Scikit-learn**
-- **Pandas**
-- **NLTK**
+---
 
+## 🧰 Tech Stack
 
+- 🐍 Python
+- 🌐 Streamlit
+- 📊 pandas, numpy, matplotlib, seaborn
+- 🧠 scikit-learn (TF-IDF, Naive Bayes)
+- 🔤 nltk for stopwords and text processing
 
-## 📦 Dataset
+---
 
-The app uses a CSV file `Fake.csv` containing:
-- `text`: The news content
-- `label`: `1` = Fake, `0` = Real
+## 🔧 How to Run
 
-Make sure this file is in the same directory as the app.
-
-
-
-## 🛠 How to Run
-
-### 1. Install dependencies
+### 1. Clone this repo
 
 ```bash
-pip install streamlit pandas numpy scikit-learn nltk
+git clone https://github.com/sushmaaa31/fake-news-detector.git
+cd fake-news-detector
+###2. Install dependencies
+pip install -r requirements.txt
+3. Run the app
+streamlit run code.py
+---
+fake-news-detector/
+├── code.py             # Main Streamlit app
+├── Fake.csv            # Dataset
+├── requirements.txt    # Required packages (optional)
+└── README.md           # Project documentation
