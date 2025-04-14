@@ -33,20 +33,5 @@ This Streamlit app helps classify whether a news article is **Fake** or **Real**
 
 ---
 
-## 🔧 How to Run
-
-### 1. Clone this repo
-
-```bash
-git clone https://github.com/sushmaaa31/fake-news-detector.git
-cd fake-news-detector
-###2. Install dependencies
-pip install -r requirements.txt
-3. Run the app
-streamlit run code.py
----
-fake-news-detector/
-├── code.py             # Main Streamlit app
-├── Fake.csv            # Dataset
-├── requirements.txt    # Required packages (optional)
-└── README.md           # Project documentation
+📜 License
+This project is licensed under the MIT License.
