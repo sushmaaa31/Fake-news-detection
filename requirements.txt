@@ -4,3 +4,5 @@ numpy
 scikit-learn
 matplotlib
 seaborn
+nltk
+joblib
